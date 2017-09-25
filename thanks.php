@@ -15,10 +15,15 @@
     </style>
 </head>
 <body class="d-flex justify-content-center align-content-center">
-    <div class="container bg-dark text-info border border-light">
-        <h1>Thanks for submiting the form</h1>
-        <a href="index.php">Go Back</a>
-        <a href="list.php">See the list of Jedi's</a> 
+    <div class="container w-50 mt-5 bg-dark text-info border border-light">
+        <h1 class="text-center my-5">Thanks for submiting the form</h1>
+        <div class="mb-5 d-flex flex-row justify-content-center">
+            <img class="img-fluid" src="yoda.png" alt="Master Yoda">
+        </div>
+        <div class="mb-3 d-flex flex-row justify-content-around">
+            <a href="index.php">Go Back</a>
+            <a href="list.php">See the list of Jedi's</a> 
+        </div>
     </div>
 </body>
 </html>
